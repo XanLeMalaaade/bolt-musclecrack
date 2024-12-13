@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+      @apply font-sans; /* Utilise la police par défaut définie dans Tailwind */
+      font-smoothing: antialiased; /* Pour des polices plus nettes */
+        -webkit-font-smoothing: antialiased; /* Pour Safari et Chrome */
+        -moz-osx-font-smoothing: grayscale; /* Pour macOS */
+    }
+}
+  
